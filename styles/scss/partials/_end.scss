@@ -1,0 +1,122 @@
+.end {
+  width: 1000px;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+  &__l1 {
+    color: var(--Pure, #fff);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  &__l2 {
+    &__list {
+      display: flex;
+      list-style-type: none;
+      gap: 20px;
+      &__1 {
+        color: var(--Pure, #fff);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      &__other {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+    }
+  }
+  &__l3 {
+    height: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .end {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+    &__l1 {
+      color: var(--Pure, #fff);
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    &__l2 {
+      &__list {
+        display: flex;
+        list-style-type: none;
+        gap: 20px;
+        &__1 {
+          color: var(--Pure, #fff);
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        &__other {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+    &__l3 {
+      height: 30px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .end {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    &__l1 {
+      color: var(--Pure, #fff);
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    &__l2 {
+      &__list {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+        gap: 20px;
+        &__1 {
+          color: var(--Pure, #fff);
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+        &__other {
+          color: rgba(255, 255, 255, 0.5);
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
+      }
+    }
+    &__l3 {
+      &__img {
+        height: 17px;
+      }
+    }
+  }
+}

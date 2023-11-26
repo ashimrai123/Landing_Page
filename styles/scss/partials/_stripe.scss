@@ -1,0 +1,27 @@
+.stripe {
+  padding: 20px 70px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.5);
+  height: auto;
+  max-width: 100%;
+  position: relative;
+
+  &__img {
+    height: auto;
+    flex-shrink: 1;
+    min-width: 50px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .stripe {
+    padding: 20px 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .stripe {
+    padding: 20px 35px;
+  }
+}
