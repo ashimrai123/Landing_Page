@@ -4,7 +4,6 @@
   padding-left: 70px;
   padding-bottom: 300px;
 
-  background-image: url(bg6.svg);
 
   &__top {
     &__l1 {
@@ -38,12 +37,13 @@
     display: flex;
     justify-content: space-between;
     gap: 2%;
-    &__bg {
-      width: 300px; 
-      height: 478.557px; 
-      display: flex; 
-      justify-content: space-between; 
-      align-items: center; 
+    &__bg { 
+      background-image: url(../../../assets/img/vaccine.svg);
+      width: 300px;
+      height: 478.557px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
       margin-top: -70px;
     }
     &__1 {
