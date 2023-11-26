@@ -39,7 +39,12 @@
     justify-content: space-between;
     gap: 2%;
     &__bg {
-      
+      width: 300px; 
+      height: 478.557px; 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      margin-top: -70px;
     }
     &__1 {
       padding: 4% 2%;
